@@ -1,0 +1,60 @@
+.nav{
+    background:#000000 ;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav__ancoras{
+    margin-left: 10px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-size:1.5rem ;
+    font-weight: 400;
+}
+
+.text-help:hover{
+    text-decoration: underline;
+}
+.text-abs:hover{
+    color: gray;
+    transition: 0.5s;
+}
+
+.nav__btn{
+    display: flex;
+    gap: 15px;
+}
+
+.btn-submit{
+    font-size:24px ;
+    font-weight:400 ;
+    padding: 6px 22px;
+    background: #191a1b;
+    color: #fff;
+    margin: 0px 0px 0px 16px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+
+.btn-sign{
+    font-size:24px;
+    font-weight:400;
+    padding: 6px 32px;
+    margin: 0px 0px 0px 16px;
+    background: #4C5FD5;
+    color: #fff;
+    border-color: #4C5FD5;
+    border-radius: 8px;
+}
+
+.btn-sign:hover{
+    color:#4C5FD5 ;
+    background: #fff;
+    border-color: #fff;
+    transition: 0.3s;
+}
